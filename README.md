@@ -34,7 +34,7 @@ Some of my favorite Gnome extensions:
 
 ### Install the Nvidia drivers (if you have a Nvidia GPU)
 
-...and silently curse the fact that Nvidia can't ship an open driver like AMD.
+...and silently curse Nvidia for not shipping an open driver like AMD. This has implications for secure boot because the driver is a kernel mod and appears untrusted. I'll explain more about this later.
 
 Follow [this guide](https://rpmfusion.org/Howto/NVIDIA?highlight=%28%5CbCategoryHowto%5Cb%29) for instructions. Be sure to wait for the driver to fully build!
 
